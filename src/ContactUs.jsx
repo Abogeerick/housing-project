@@ -70,11 +70,6 @@ function ContactUs() {
               placeholder="example@email.com"
               required
             />
-            {/* {emailError && (
-              <small className="error absolute bottom-[-.3rem] right-0 text-sm text-orange-600">
-                Invalid email address
-              </small>
-            )} */}
           </div>
           <div className="formControl">
             <label htmlFor="message">Leave us a message</label>
