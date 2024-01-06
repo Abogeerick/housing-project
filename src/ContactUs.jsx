@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsFillSendFill } from "react-icons/bs";
 
 
-function Contact() {
+function ContactUs() {
   const [emailError, setEmailError] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -100,4 +100,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactUs;
