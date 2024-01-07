@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BsFillSendFill } from "react-icons/bs";
+import Footer from "./Footer";
 
 
 function ContactUs() {
@@ -91,6 +92,7 @@ function ContactUs() {
           </div>
         </form>
       </section>
+      <Footer />
     </section>
   );
 }
