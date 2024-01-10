@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import HouseCard from './HouseCard';
+import Footer from './Footer';
 
 const Home = () => {
   const [trending, setTrending] = useState([]);
@@ -53,6 +54,7 @@ const Home = () => {
       {renderCategory("New Houseplans", newPlans)}
       {renderCategory("Featured Houseplans", featured)}
       {renderCategory("Luxury Houseplans", luxury)}
+      <Footer />
     </div>
   );
 }
