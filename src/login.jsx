@@ -18,7 +18,7 @@ const Login = () => {
 
   return (
     <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
-    <section className="flex h-screen bg-gray-100">
+    <section className="flex h-screen">
       <div className="hidden lg:block lg:w-1/2 bg-cover" style={{ backgroundImage: 'url("https://www.maramani.com/cdn/shop/products/6BedroomHousePlan-ID26401-Perspective_1_724x482.progressive.jpg?v=1664179577")' }}>
       </div>
 
