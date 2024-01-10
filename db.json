@@ -1,0 +1,231 @@
+
+{
+    "trendingHouseplans": [
+      {
+        "id": 1,
+        "title": "Luxury Modern Villa",
+        "image": "https://www.maramani.com/cdn/shop/products/Modern5BedroomDoubleStoreyHouse-ID25506-Perspective.jpg_2_724x482.progressive.jpg?v=1636551613",
+        "briefDescription": "An exquisite modern villa with panoramic views.",
+        "fullDescription": "This luxury villa offers 5 bedrooms, 4 bathrooms, a state-of-the-art kitchen, and stunning panoramic views.",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "price": 500000,
+        "amenities": ["Infinity Pool", "Home Theater", "Wine Cellar"]
+      },
+      {
+        "id": 2,
+        "title": "Charming Beachfront Cottage",
+        "image": "https://www.maramani.com/cdn/shop/files/RentalApartmentHousePlan-ID39902-Image5_724x482.progressive.jpg?v=1704362223",
+        "briefDescription": "A charming cottage right on the beach.",
+        "fullDescription": "This beachfront cottage features 3 bedrooms, a cozy living room with fireplace, and direct beach access.",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "price": 350000,
+        "amenities": ["Beach Access", "Fireplace", "Sun Deck"]
+      },
+      {
+        "id": 3,
+        "title": "Elegant Country Estate",
+        "image": "https://www.maramani.com/cdn/shop/products/Perspective_3_ce89a2a8-d03d-4f0f-9b24-e5cc944add9f_724x482.progressive.jpg?v=1509000478",
+        "briefDescription": "A spacious and elegant country estate surrounded by nature.",
+        "fullDescription": "With 6 bedrooms, a large barn, and acres of beautiful land, this estate is perfect for a peaceful country life.",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "price": 800000,
+        "amenities": ["Barn", "Horse Facilities", "Private Pond"]
+      },
+      {
+        "id": 4,
+        "title": "Modern Downtown Loft",
+        "image": "https://www.maramani.com/cdn/shop/products/FourBedroomModernHouseDesign-ID24502-Perspective_1_724x482.progressive.jpg?v=1663942220",
+        "briefDescription": "Stylish modern loft in the heart of the city.",
+        "fullDescription": "This loft features 2 bedrooms, an open floor plan, and floor-to-ceiling windows with city views.",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": 420000,
+        "amenities": ["City Views", "Open Floor Plan", "Private Elevator"]
+      },
+      {
+        "id": 5,
+        "title": "Cozy Mountain Cabin",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2_724x482.progressive.jpg?v=1663942091",
+        "briefDescription": "A cozy cabin nestled in the mountains.",
+        "fullDescription": "This cabin has 4 bedrooms, a wood stove, and is surrounded by stunning mountain scenery.",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "price": 300000,
+        "amenities": ["Mountain Views", "Wood Stove", "Hiking Trails"]
+      }
+    ],
+    "newHouseplans": [
+      {
+        "id": 6,
+        "title": "Contemporary Urban Apartment",
+        "image": "https://www.maramani.com/cdn/shop/files/Modern5BedroomMansionDesign-ID25709-Image01_724x482.progressive.jpg?v=1696245686",
+        "briefDescription": "A sleek and contemporary apartment in a vibrant urban area.",
+        "fullDescription": "This apartment features 3 bedrooms, modern amenities, and is close to shops and restaurants.",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "price": 275000,
+        "amenities": ["Gym", "Rooftop Terrace", "Concierge Service"]
+      },
+      {
+        "id": 7,
+        "title": "Traditional Farmhouse",
+        "image": "https://www.maramani.com/cdn/shop/files/RentalApartmentHousePlan-ID39902-Image5_724x482.progressive.jpg?v=1704362223",
+        "briefDescription": "A beautiful traditional farmhouse with modern updates.",
+        "fullDescription": "This farmhouse offers 5 bedrooms, a large kitchen, and a blend of traditional charm with modern conveniences.",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "price": 450000,
+        "amenities": ["Large Kitchen", "Garden", "Workshop"]
+      },
+      {
+        "id": 8,
+        "title": "Suburban Family Home",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2.jpg?v=1663942091",
+        "briefDescription": "A perfect family home in a friendly suburban neighborhood.",
+        "fullDescription": "This home includes 4 bedrooms, a backyard, and is close to schools and parks.",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "price": 320000,
+        "amenities": ["Backyard", "Two-Car Garage", "Nearby Parks"]
+      },
+      {
+        "id": 9,
+        "title": "Urban Studio Loft",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomOnTheFirstFloor-ID24504-Perspective_1.jpg?v=1663942555",
+        "briefDescription": "A chic studio loft in an urban setting.",
+        "fullDescription": "This loft offers an open floor plan, industrial design elements, and is close to downtown amenities.",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "price": 200000,
+        "amenities": ["Open Floor Plan", "Industrial Design", "Close to Downtown"]
+      },
+      {
+        "id": 10,
+        "title": "Luxurious Penthouse",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomOnTheFirstFloor-ID24504-Perspective_1.jpg?v=1663942555",
+        "briefDescription": "An opulent penthouse with breathtaking city views.",
+        "fullDescription": "This penthouse features 3 bedrooms, a gourmet kitchen, and expansive views of the city skyline.",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "price": 1500000,
+        "amenities": ["Skyline Views", "Gourmet Kitchen", "Private Elevator Access"]
+      }
+    ],
+    "featuredHouseplans": [
+      {
+        "id": 11,
+        "title": "Stylish City Townhouse",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2.jpg?v=1663942091",
+        "briefDescription": "A stylish townhouse in a bustling city location.",
+        "fullDescription": "This townhouse offers 3 bedrooms, a rooftop deck, and a modern, open-concept living space.",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "price": 350000,
+        "amenities": ["Rooftop Deck", "Open Concept", "City Views"]
+      },
+      {
+        "id": 12,
+        "title": "Secluded Mountain Retreat",
+        "image": "https://www.maramani.com/cdn/shop/files/RentalApartmentHousePlan-ID39902-Image5_724x482.progressive.jpg?v=1704362223",
+        "briefDescription": "A serene retreat in the heart of the mountains.",
+        "fullDescription": "Enjoy peace and privacy in this 4-bedroom mountain retreat with stunning panoramic views.",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "price": 475000,
+        "amenities": ["Panoramic Views", "Fireplace", "Wooded Lot"]
+      },
+      {
+        "id": 13,
+        "title": "Charming Suburban Home",
+        "image": "https://www.maramani.com/cdn/shop/files/Modern5BedroomMansionDesign-ID25709-Image01_724x482.progressive.jpg?v=1696245686",
+        "briefDescription": "A charming home in a friendly suburban neighborhood.",
+        "fullDescription": "This 4-bedroom home is perfect for families, featuring a large backyard and a spacious kitchen.",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "price": 300000,
+        "amenities": ["Large Backyard", "Spacious Kitchen", "2-Car Garage"]
+      },
+      {
+        "id": 14,
+        "title": "Downtown High-Rise Condo",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2_724x482.progressive.jpg?v=1663942091",
+        "briefDescription": "Modern high-rise condo with stunning city views.",
+        "fullDescription": "Located in the heart of downtown, this 2-bedroom condo offers luxury and convenience.",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": 550000,
+        "amenities": ["City Views", "Modern Amenities", "Fitness Center"]
+      },
+      {
+        "id": 15,
+        "title": "Historic Victorian Estate",
+        "image": "https://www.maramani.com/cdn/shop/products/FourBedroomModernHouseDesign-ID24502-Perspective_1_724x482.progressive.jpg?v=1663942220",
+        "briefDescription": "A beautifully restored Victorian estate.",
+        "fullDescription": "This 5-bedroom historic home has been meticulously restored, featuring original woodwork and a grand staircase.",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "price": 750000,
+        "amenities": ["Historic Detailing", "Grand Staircase", "Gourmet Kitchen"]
+      }
+    ],
+    "luxuryHouseplans": [
+      {
+        "id": 16,
+        "title": "Beachfront Luxury Villa",
+        "image": "https://www.maramani.com/cdn/shop/products/FourBedroomModernHouseDesign-ID24502-Perspective_1_724x482.progressive.jpg?v=1663942220",
+        "briefDescription": "An exquisite villa with direct beach access.",
+        "fullDescription": "This luxurious villa features 6 bedrooms, a private beach, and stunning ocean views.",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "price": 2200000,
+        "amenities": ["Private Beach", "Ocean Views", "Infinity Pool"]
+      },
+      {
+        "id": 17,
+        "title": "Modern Architectural Masterpiece",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2_724x482.progressive.jpg?v=1663942091",
+        "briefDescription": "A striking modern home with innovative design.",
+        "fullDescription": "Architecturally stunning, this 4-bedroom home features state-of-the-art design and technology.",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "price": 3000000,
+        "amenities": ["Smart Home Technology", "Minimalist Design", "Eco-Friendly Features"]
+      },
+      {
+        "id": 18,
+        "title": "Expansive Country Ranch",
+        "image": "https://www.maramani.com/cdn/shop/files/Modern5BedroomMansionDesign-ID25709-Image01_724x482.progressive.jpg?v=1696245686",
+        "briefDescription": "A sprawling ranch set on acres of beautiful land.",
+        "fullDescription": "Experience country living in this 7-bedroom ranch with horse facilities and a private lake.",
+        "bedrooms": 7,
+        "bathrooms": 6,
+        "price": 1850000,
+        "amenities": ["Horse Facilities", "Private Lake", "Guest House"]
+      },
+      {
+        "id": 19,
+        "title": "Elegant Waterfront Estate",
+        "image": "https://www.maramani.com/cdn/shop/files/RentalApartmentHousePlan-ID39902-Image5_724x482.progressive.jpg?v=1704362223",
+        "briefDescription": "An elegant estate with breathtaking waterfront views.",
+        "fullDescription": "This 5-bedroom estate offers a private dock, lush gardens, and luxurious interiors.",
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "price": 2600000,
+        "amenities": ["Private Dock", "Waterfront Views", "Gardens"]
+      },
+      {
+        "id": 20,
+        "title": "Opulent City Penthouse",
+        "image": "https://www.maramani.com/cdn/shop/products/2StoryHousePlanWithMasterBedroomUpstairs-ID24410-Perspective_2.jpg?v=1663942091",
+        "briefDescription": "A stunning penthouse atop a city skyscraper.",
+        "fullDescription": "With panoramic city views, this 3-bedroom penthouse defines urban luxury living.",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "price": 3200000,
+        "amenities": ["Panoramic Views", "Rooftop Terrace", "Private Elevator Access"]
+      }
+    ]
+  }
