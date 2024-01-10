@@ -36,9 +36,9 @@ const Home = () => {
   }, []);
 
   const renderCategory = (title, houses) => (
-    <div>
-      <h2 className="text-2xl font-bold p-4">{title}</h2>
-      <div className="flex flex-wrap justify-center">
+    <div className="mb-8">
+      <h2 className="text-3xl font-bold text-gray-800 py-4 px-6">{title}</h2>
+      <div className="flex flex-wrap justify-center gap-6 px-6">
         {houses.map((house) => (
           <HouseCard key={house.id} house={house} />
         ))}
