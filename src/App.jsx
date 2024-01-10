@@ -5,6 +5,7 @@ import ContactUs from './ContactUs';
 import AboutUs from './AboutUs';
 import Blog from './Blog';
 import Home from './Home';
+import Login from './login';
 // Import your components
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/login" element={<Login />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>
