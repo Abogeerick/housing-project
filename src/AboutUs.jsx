@@ -3,9 +3,10 @@ import Footer from './Footer';
 
 const AboutUs = () => {
   return (
+    <div>
     <div className="relative isolate overflow-hidden py-24 sm:py-32" style={{ backgroundColor: 'rgb(14, 235, 235)' }}>
       <img
-        src="https://www.maramani.com/cdn/shop/files/5-revision.jpg?v=1641901298"
+        src="https://www.maramani.com/cdn/shop/products/6BedroomHousePlan-ID26401-Perspective_1_724x482.progressive.jpg?v=1664179577"
         alt="Background"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
@@ -58,7 +59,8 @@ const AboutUs = () => {
           </dl>
         </div>
       </div>
-      <Footer />
+    </div>
+    <Footer />
     </div>
   )
 }
