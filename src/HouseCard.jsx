@@ -1,8 +1,11 @@
 import React from 'react';
 
-const HouseCard = ({ house }) => {
+const HouseCard = ({ house, onClick }) => {
   return (
-    <div className="max-w-xs w-full rounded overflow-hidden shadow-lg bg-white">
+    <div 
+      className="max-w-xs w-full rounded overflow-hidden shadow-lg bg-white cursor-pointer"
+      onClick={() => onClick(house)}
+    >
       <img className="w-full h-48 object-cover" src={house.image} alt={house.title} />
       <div className="px-4 py-3">
         <div className="font-bold text-lg mb-2">{house.title}</div>

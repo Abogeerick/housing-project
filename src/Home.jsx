@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import HouseCard from './HouseCard';
+import HouseDetailsModal from './HouseDetailsModal';
 import Footer from './Footer';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   const [newPlans, setNewPlans] = useState([]);
   const [featured, setFeatured] = useState([]);
   const [luxury, setLuxury] = useState([]);
+  const [selectedHouse, setSelectedHouse] = useState(null);
 
   useEffect(() => {
     // Fetch data from each category and set the state
@@ -36,12 +38,20 @@ const Home = () => {
     fetchData();
   }, []);
 
+  const openModal = (house) => {
+    setSelectedHouse(house);
+  };
+
+  const closeModal = () => {
+    setSelectedHouse(null);
+  };
+
   const renderCategory = (title, houses) => (
     <div className="mb-8">
       <h2 className="text-3xl font-bold text-gray-800 py-4 px-6">{title}</h2>
       <div className="flex flex-wrap justify-center gap-6 px-6">
         {houses.map((house) => (
-          <HouseCard key={house.id} house={house} />
+          <HouseCard key={house.id} house={house} onClick={openModal} />
         ))}
       </div>
     </div>
@@ -55,6 +65,7 @@ const Home = () => {
       {renderCategory("Featured Houseplans", featured)}
       {renderCategory("Luxury Houseplans", luxury)}
       <Footer />
+      {selectedHouse && <HouseDetailsModal house={selectedHouse} onClose={closeModal} />}
     </div>
   );
 }
