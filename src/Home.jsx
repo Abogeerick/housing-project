@@ -13,26 +13,26 @@ const Home = () => {
     // Fetch data from each category and set the state
     const fetchData = async () => {
       try {
-        const resTrending = await fetch('http://localhost:3000/trendingHouseplans');
+        const resTrending = await fetch('https://houseplans-api.onrender.com/trendingHouseplans');
         const trendingData = await resTrending.json();
         setTrending(trendingData);
-
-        const resNew = await fetch('http://localhost:3000/newHouseplans');
+  
+        const resNew = await fetch('https://houseplans-api.onrender.com/newHouseplans');
         const newData = await resNew.json();
         setNewPlans(newData);
-
-        const resFeatured = await fetch('http://localhost:3000/featuredHouseplans');
+  
+        const resFeatured = await fetch('https://houseplans-api.onrender.com/featuredHouseplans');
         const featuredData = await resFeatured.json();
         setFeatured(featuredData);
-
-        const resLuxury = await fetch('http://localhost:3000/luxuryHouseplans');
+  
+        const resLuxury = await fetch('https://houseplans-api.onrender.com/luxuryHouseplans');
         const luxuryData = await resLuxury.json();
         setLuxury(luxuryData);
       } catch (error) {
         console.error('Error fetching data: ', error);
       }
     };
-
+  
     fetchData();
   }, []);
 
