@@ -15,26 +15,26 @@ const Home = () => {
     // Fetch data from each category and set the state
     const fetchData = async () => {
       try {
-        const resTrending = await fetch('https://houseplans-api.onrender.com/trendingHouseplans');
+        const resTrending = await fetch('https://api.jsonbin.io/v3/b/66c3538aacd3cb34a876a963/trendingHouseplans');
         const trendingData = await resTrending.json();
         setTrending(trendingData);
-  
-        const resNew = await fetch('https://houseplans-api.onrender.com/newHouseplans');
+
+        const resNew = await fetch('https://api.jsonbin.io/v3/b/66c3538aacd3cb34a876a963/newHouseplans');
         const newData = await resNew.json();
         setNewPlans(newData);
-  
-        const resFeatured = await fetch('https://houseplans-api.onrender.com/featuredHouseplans');
+
+        const resFeatured = await fetch('https://api.jsonbin.io/v3/b/66c3538aacd3cb34a876a963/featuredHouseplans');
         const featuredData = await resFeatured.json();
         setFeatured(featuredData);
-  
-        const resLuxury = await fetch('https://houseplans-api.onrender.com/luxuryHouseplans');
+
+        const resLuxury = await fetch('https://api.jsonbin.io/v3/b/66c3538aacd3cb34a876a963/luxuryHouseplans');
         const luxuryData = await resLuxury.json();
         setLuxury(luxuryData);
       } catch (error) {
         console.error('Error fetching data: ', error);
       }
     };
-  
+
     fetchData();
   }, []);
 
